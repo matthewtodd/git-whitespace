@@ -1,0 +1,1 @@
+* Instead of hardcoding file extensions, somehow use git to tell me which file to process. Except git doesn't care if a file's binary, right?

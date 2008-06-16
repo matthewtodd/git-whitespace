@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+def find_and_remove_whitespace(find_arguments)
+  `find . -type f #{find_arguments} | xargs perl -pi -e 's/ +$//g'`
+end
+
+# Files in the current directory.
+find_and_remove_whitespace '-maxdepth 1'
+
+# Files in nested directories with the given extensions.
+%w(builder css erb html icalendar js rake rb yml).each do |extension|
+  find_and_remove_whitespace "-name \*.#{extension}"
+end
