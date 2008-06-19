@@ -4,8 +4,8 @@ def find_and_remove_whitespace(find_arguments)
   `find -E . -type f #{find_arguments} | xargs perl -pi -e 's/ +$//g'`
 end
 
-# Files in the current directory.
-find_and_remove_whitespace '-maxdepth 1'
+# Files in nested directories without extensions
+find_and_remove_whitespace '-regex "(Capfile|Rakefile|README|TODO)"'
 
 # Files in nested directories with the given extensions.
-find_and_remove_whitespace '-regex ".*(builder|css|erb|html|icalendar|js|rake|rb|yml)"'
+find_and_remove_whitespace '-regex ".*\.(builder|css|erb|html|icalendar|js|rake|rb|yml)"'
