@@ -8,4 +8,4 @@ end
 find_and_remove_whitespace '-regex "(Capfile|Rakefile|README|TODO)"'
 
 # Files in nested directories with the given extensions.
-find_and_remove_whitespace '-regex ".*\.(builder|css|erb|html|icalendar|js|rake|rb|yml)"'
+find_and_remove_whitespace '-regex ".*\.(builder|css|erb|haml|html|icalendar|js|rake|rb|yml)"'
