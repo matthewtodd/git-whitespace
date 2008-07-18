@@ -1,3 +1,10 @@
 * Ignore vendor
 * Use pure ruby instead of shelling out -- will probably be faster
 * Instead of hardcoding file extensions, somehow use git to tell me which file to process. Except git doesn't care if a file's binary, right?
+
+
+Feature Request: give me a flag (or make it default?) to only process the files that I've modified. I have another project I'm working on that I don't want to do the mass cleanup on, but certainly everytime I check files in, I want to keep them clean.
+
+If you haven't seen it yet, checkout ruby-git for a Ruby git library. Of course, the pre-commit hook has an example of how to get the diffs in a shell script.
+
+If I ever have time to hack for fun, I might take a look at doing this feature in ruby-git.
