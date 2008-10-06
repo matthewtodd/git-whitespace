@@ -1,3 +1,7 @@
+== 0.2.0
+* Automatically ignore .git and vendor directories.
+* Use pure ruby to find files to examine.
+
 == 0.1.3
 * Include haml files.
 
