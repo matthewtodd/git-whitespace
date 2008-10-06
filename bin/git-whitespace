@@ -3,4 +3,4 @@
 require File.join(File.dirname(__FILE__), '..', 'lib', 'whitespace')
 
 files = Finder.new.files(Dir.pwd)
-exec "ruby", "-pi", "-e", "gsub(/^ +$/, '')", *files
+exec "ruby", "-pi", "-e", "gsub(/ +$/, '')", *files

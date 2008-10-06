@@ -1,3 +1,6 @@
+== 0.2.1
+* Bugfix: detect spaces at the end of any line, not just blank ones.
+
 == 0.2.0
 * Automatically ignore .git and vendor directories.
 * Use pure ruby to find files to examine.

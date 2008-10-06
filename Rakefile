@@ -3,7 +3,7 @@ require 'rake/gemreleasetask'
 
 spec = Gem::Specification.new do |spec| 
   spec.name             = 'git-whitespace'
-  spec.version          = '0.2.0'
+  spec.version          = '0.2.1'
   spec.summary          = 'Squashes whitespace from text files in the current project.'
   spec.files            = FileList['CHANGELOG', 'README', 'TODO', 'bin/*', 'lib/**/*.rb'].to_a
   spec.executables      = ['git-whitespace']
