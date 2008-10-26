@@ -3,7 +3,7 @@ require 'find'
 class Finder
   def initialize
     @directories_to_prune = %w[.git vendor]
-    @extensions           = %w[builder css erb haml html icalendar js rake rb yml] + ['']
+    @extensions           = %w[builder css erb haml html icalendar js rake rb sass yml] + ['']
   end
 
   def files(directory)
