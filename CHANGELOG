@@ -1,3 +1,7 @@
+== 0.2.5
+* Strip tabs as well as spaces. [Michael Hale]
+* Include feature files.
+
 == 0.2.4
 * Include rdoc and txt files. (A little config or smarts might be nice.)
 

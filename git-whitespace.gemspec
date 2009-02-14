@@ -2,18 +2,18 @@
 
 Gem::Specification.new do |s|
   s.name = %q{git-whitespace}
-  s.version = "0.2.4"
+  s.version = "0.2.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matthew Todd"]
-  s.date = %q{2008-12-06}
+  s.date = %q{2009-02-14}
   s.default_executable = %q{git-whitespace}
   s.email = %q{matthew.todd@gmail.com}
   s.executables = ["git-whitespace"]
   s.extra_rdoc_files = ["README", "CHANGELOG", "TODO"]
   s.files = ["CHANGELOG", "README", "TODO", "bin/git-whitespace", "lib/whitespace.rb"]
   s.has_rdoc = true
-  s.rdoc_options = ["--main", "README", "--title", "git-whitespace-0.2.4", "--inline-source", "--line-numbers"]
+  s.rdoc_options = ["--main", "README", "--title", "git-whitespace-0.2.5", "--inline-source", "--line-numbers"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{Squashes whitespace from text files in the current project.}
